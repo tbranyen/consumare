@@ -1,0 +1,14 @@
+{
+  "name": "consumare",
+  "version": "0.1.0",
+  "description": "Consume content from Git.",
+  "main": "lib",
+  "author": "Tim Branyen (@tbranyen)",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "~0.3.2",
+    "combyne": "~0.3.0",
+    "highlight.js": "~8.0.0",
+    "q": "~1.0.1"
+  }
+}
