@@ -7,15 +7,23 @@ Consumare
 
 Maintained by Tim Branyen [@tbranyen](http://twitter.com/tbranyen).
 
-## Install. ##
+#### Install ####
 
 ``` bash
 npm install consumare
 ```
 
-## Unit tests. ##
+#### Configure a repository ####
 
-You will need to build locally before running the tests.  See above.
+``` javascript
+var consumare = require("consumare");
+
+// Assuming your Git repository is named content and your work is in the
+// master branch.
+consumare.configure("content", { repo: ".git", branch: "master" });
+```
+
+#### Unit tests ####
 
 ``` bash
 npm test

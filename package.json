@@ -9,6 +9,13 @@
     "marked": "~0.3.2",
     "combyne": "~0.3.0",
     "highlight.js": "~8.0.0",
-    "q": "~1.0.1"
+    "q": "~1.0.1",
+    "nodegit": "~0.1.1"
+  },
+  "scripts": {
+    "test": "mocha --reporter=dot test/*.js"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
   }
 }
