@@ -13,9 +13,11 @@
     "nodegit": "~0.1.1"
   },
   "scripts": {
-    "test": "mocha --reporter=dot test/*.js"
+    "test": "istanbul cover _mocha -- -r test/runner test/lib/**"
   },
   "devDependencies": {
-    "mocha": "~1.18.2"
+    "mocha": "~1.18.2",
+    "istanbul": "~0.2.7",
+    "rimraf": "^2.2.6"
   }
 }
