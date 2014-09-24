@@ -1,16 +1,16 @@
 {
   "name": "consumare",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "description": "Consume content from Git.",
   "main": "lib",
   "author": "Tim Branyen (@tbranyen)",
   "license": "MIT",
   "dependencies": {
-    "marked": "~0.3.2",
-    "combyne": "~0.3.0",
+    "bluebird": "^2.2.2",
+    "combyne": "~0.3.5",
     "highlight.js": "~8.0.0",
-    "q": "~1.0.1",
-    "nodegit": "~0.1.1"
+    "marked": "~0.3.2",
+    "nodegit": "nodegit/nodegit"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -r test/runner test/lib/**"
@@ -18,6 +18,6 @@
   "devDependencies": {
     "mocha": "~1.18.2",
     "istanbul": "~0.2.7",
-    "rimraf": "^2.2.6"
+    "rimraf": "~2.2.6"
   }
 }
