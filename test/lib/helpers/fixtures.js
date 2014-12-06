@@ -1,9 +1,12 @@
-const repo = require("nodegit").Repository;
 const rimraf = require("rimraf");
 const path = require("path");
+const NodeGit = require("nodegit");
+const repo = NodeGit.Repository;
+const clone = NodeGit.Clone;
 
 // Absolute path to fixtures directory.
 var fixtures = path.join(__dirname, "../../fixtures/");
+var testURL = "https://github.com/tbranyen/consumare-test.git";
 
 /**
  * Initial test fixture directories.
@@ -11,7 +14,8 @@ var fixtures = path.join(__dirname, "../../fixtures/");
  * @param {Function} done - Callback function indicating completion.
  */
 exports.setup = function() {
-  return repo.init(path.join(fixtures, "test-repo"), 1);
+  var testPath = path.join(fixtures, "test-repo");
+  return clone.clone(testURL, testPath, { ignoreCertErrors: 1 });
 };
 
 /**
