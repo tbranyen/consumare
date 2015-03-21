@@ -51,8 +51,8 @@ describe("Storage", function() {
     it("can iterate all history for a file", function() {
       var revs = this.revs;
 
-      assert.equal(revs[0].sha, "5fe36b33456706d5e696d78adf6526b42d03c869");
-      assert.equal(revs[1].sha, "edd209ddc98dce035b05411fb103c2cb4cf7ddff");
+      assert.equal(revs[0].sha(), "5fe36b33456706d5e696d78adf6526b42d03c869");
+      assert.equal(revs[1].sha(), "edd209ddc98dce035b05411fb103c2cb4cf7ddff");
     });
   });
 });
