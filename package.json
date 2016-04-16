@@ -6,18 +6,19 @@
   "author": "Tim Branyen (@tbranyen)",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.9.4",
-    "combyne": "^0.6.4",
-    "highlight.js": "^8.4.0",
-    "marked": "^0.3.3",
-    "nodegit": "^0.3.3"
+    "bluebird": "^3.3.4",
+    "combyne": "^0.9.0",
+    "highlight.js": "^9.2.0",
+    "marked": "^0.3.5",
+    "nodegit": "^0.11.9"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -r test/runner test/lib/**"
   },
   "devDependencies": {
-    "mocha": "^2.1.0",
-    "istanbul": "^0.3.5",
-    "rimraf": "^2.2.8"
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "q": "^1.4.1",
+    "rimraf": "^2.5.2"
   }
 }
