@@ -3,7 +3,7 @@ Consumare
 
 > Consume content from Git
 
-**Stable: 0.1.0**
+**Stable: 1.0.0**
 
 Maintained by Tim Branyen [@tbranyen](http://twitter.com/tbranyen).
 

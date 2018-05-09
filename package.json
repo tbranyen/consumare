@@ -1,7 +1,7 @@
 {
   "name": "consumare",
-  "version": "0.1.0-alpha.2",
-  "description": "Consume content from Git.",
+  "version": "1.0.0",
+  "description": "Consume content from Git",
   "main": "lib",
   "author": "Tim Branyen (@tbranyen)",
   "license": "MIT",
