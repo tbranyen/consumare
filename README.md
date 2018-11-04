@@ -3,7 +3,7 @@ Consumare
 
 > Consume content from Git
 
-**Stable: 1.0.0**
+**Stable: 2.0.0**
 
 Maintained by Tim Branyen [@tbranyen](http://twitter.com/tbranyen).
 
@@ -11,6 +11,12 @@ Maintained by Tim Branyen [@tbranyen](http://twitter.com/tbranyen).
 
 ``` bash
 npm install consumare
+```
+
+You may get errors with NodeGit, try and build from source if you get segfaults:
+
+``` bash
+npm install consumare --build-from-source
 ```
 
 #### Configure a repository ####
