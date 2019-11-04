@@ -10,7 +10,7 @@
     "combyne": "2.0.0",
     "highlight.js": "9.13.1",
     "marked": "0.5.1",
-    "nodegit": "0.24.0-alpha.1"
+    "nodegit": "0.26.2"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -r test/runner test/lib/**"
