@@ -9,7 +9,7 @@
     "bluebird": "3.5.1",
     "combyne": "2.0.0",
     "highlight.js": "9.13.1",
-    "marked": "0.5.1",
+    "marked": "0.7.0",
     "nodegit": "0.26.2"
   },
   "scripts": {
